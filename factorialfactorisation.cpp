@@ -22,17 +22,16 @@ vector<pii> factfactorise(int n)
 {
     vector<pii> F;
     for(int i=0;i<id&&primes[i]<=n;i++){
-        int curr = primes[i];
-        //if(n%curr==0){
-            int num = n ;
-            int cnt = 0 ;
+        ll curr = primes[i];
+            ll num = n ;
+            ll cnt = 0 ;
             while( num / curr){
                 cnt += num/curr;
                 curr*=primes[i];
             }
             if(cnt)
             F.push_back({primes[i] , cnt});
-        //}
+        
     }
     return F;
 }
