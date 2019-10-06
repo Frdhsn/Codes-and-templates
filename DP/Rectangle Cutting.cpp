@@ -1,4 +1,4 @@
-// problem link: Rectangle Cutting
+// problem link: https://cses.fi/problemset/task/1744
 // Date: 5.10.19
 #include <bits/stdc++.h>
 using namespace std;
