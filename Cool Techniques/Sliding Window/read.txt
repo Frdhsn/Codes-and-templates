@@ -1,0 +1,1 @@
+this folder will contain all sliding windows technique i'll find cool
